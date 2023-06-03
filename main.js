@@ -34,7 +34,7 @@ function setup() {
 
 function draw() {
     background(0)
-    tranlate(width / 2, height / 2)
+    translate(width / 2, height / 2)
     textAlign(CENTER, CENTER)
     textSize(16)
     stroke(255)
