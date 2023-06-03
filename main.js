@@ -8,7 +8,7 @@ let previousAnomaly = 0
 let previousAngle = 0;
 
 function preload() {
-    data = loadTable('giss-data.css', 'csv', 'header')
+    data = loadTable('giss-data.csv', 'csv', 'header')
 }
 
 function setup() {
