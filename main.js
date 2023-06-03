@@ -68,7 +68,7 @@ function draw() {
         push()
         let x = 264 * cos(angle)
         let y = 264 * sin(angle)
-        tranlate(x, y)
+        translate(x, y)
         rotate(angle + PI / 2)
         text(months[i], 0, 0)
         pop()
